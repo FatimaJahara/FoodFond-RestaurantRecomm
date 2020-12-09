@@ -1,0 +1,65 @@
+{% load static %}
+
+<head>
+
+	<!-- Compiled and minified CSS -->
+    
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+    
+
+    <style type="text/css">
+  	
+
+
+		  body {
+		    display: flex;
+		    min-height: 100vh;
+		    flex-direction: column;
+		  }
+
+		  main {
+		    flex: 1 0 auto;
+		  }
+		      
+
+</style>
+       
+</head>
+
+<body>
+
+	<nav class="blue-grey darken-2">
+	    <div class="nav-wrapper container" >
+	      <a href="/" class="brand-logo">FoodFond</a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+	      	{% include 'blog/includes/navbaritems.html' %}
+
+	      </ul>
+	    </div>
+  	</nav>
+
+
+
+  	<main>
+	 	<div class="row">
+	        <div class="col-md-8">
+			{% include 'blog/includes/messages.html' %}
+
+			{% block content %}
+		  	
+		  	{% endblock %}
+		  </div>
+		</div> 
+
+	</main>
+
+	  	{% include 'blog/includes/footer.html' %}
+</body>
+

@@ -1,0 +1,19 @@
+{% extends 'blog/includes/header.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+	<form method='post'>
+		{% csrf_token %}
+		{{form|linebreaks}}
+		<button type='submit'>Submit</button>
+	</form>
+
+	{% if messages %}
+	<ul class="messages">
+		{% for message in messages %}
+		
+		<li {% if message.tags %} class=" {{ message.tags }}" {% endif %}>
+		{% endfor %}
+	{% endif %}
+	</ul>
+{% endblock content %}

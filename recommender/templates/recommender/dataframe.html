@@ -1,0 +1,38 @@
+{% extends 'blog/includes/header.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+	<style>
+	table {
+	  font-family: arial, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+	td, th {
+	  border: 1px solid #dddddd;
+	  text-align: left;
+	  padding: 8px;
+	}
+
+	tr:nth-child(even) {
+	  background-color: #dddddd;
+	}
+	</style>
+	<table border="1px">
+		<tbody>
+			<tr>
+				{% for data in DataFrame %}
+					<th>{{ data }}</th> 
+				{% endfor %}
+		 	</tr>
+				{% for i, row in DataFrame.iterrows %}
+					<tr>
+						{% for j,column in row.iteritems %}
+							<td>{{ column }}</td>
+						{% endfor %}
+					</tr>
+				{% endfor %}
+			
+		</tbody>
+	</table>
+{% endblock content %}

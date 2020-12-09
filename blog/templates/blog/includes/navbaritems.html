@@ -1,0 +1,16 @@
+
+
+
+	<li><a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a></li>
+  <li><a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a></li>
+
+   	{% if user.is_authenticated %}
+      <li><a class="nav-item nav-link" href="{% url 'userpreference' %}">Search for Restaurants</a></li>
+   		<li><a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a></li>
+    	<li><a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a></li>
+    {% else %}
+    	<li><a class="nav-item nav-link" href="{% url 'login' %}">Login</a></li>
+      <li><a class="nav-item nav-link" href="{% url 'register' %}">Register</a></li>
+    {% endif %}
+
+
