@@ -3,27 +3,24 @@
 
 The GUI for our recommendation Web Application consists of the following items:
 
-\begin{enumerate}
-   \item For Viewers
-   \begin{itemize}
-     \item Homepage
-     \item About Page
-     \item Login
-     \item Register
-   \end{itemize}
-   \item For Users(after Logging in)
-   \begin{itemize}
-     \item Homepage
-     \item About Page
-     \item Search for Restaurants
-     \item Recommendation
-     \item Profile
-   \end{itemize}
-   \item For Admins
-   \begin{itemize}
-     \item Admin Panel 
-     \item Admin Login
-    %  \item Update recommends
-    %  \item View Site
-   \end{itemize}
-\end{enumerate}
+- For Viewers
+
+-- Homepage
+About Page
+Login
+Register
+For Users(after Logging in)
+
+Homepage
+About Page
+Search for Restaurants
+Recommendation
+Profile
+
+For Admins
+
+Admin Panel 
+Admin Login
+Update recommends
+View Site
+
