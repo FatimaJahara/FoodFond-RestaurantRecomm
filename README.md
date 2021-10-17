@@ -3,24 +3,25 @@
 
 The GUI for our recommendation Web Application consists of the following items:
 
-- For Viewers
+#### For Viewers
 
--- Homepage
-About Page
-Login
-Register
-For Users(after Logging in)
+- Homepage
+- About Page
+- Login
+- Register
 
-Homepage
-About Page
-Search for Restaurants
-Recommendation
-Profile
+#### For Users(after Logging in)
 
-For Admins
+- Homepage
+- About Page
+- Search for Restaurants
+- Recommendation
+- Profile
 
-Admin Panel 
-Admin Login
-Update recommends
-View Site
+#### For Admins
+
+- Admin Panel 
+- Admin Login
+- Update recommends
+- View Site
 
