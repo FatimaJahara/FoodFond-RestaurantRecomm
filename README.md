@@ -1,5 +1,5 @@
-#Restaurant-Recommendation-System-using-Django-Rest-Framework
-##A website to recommend restaurants based on user preference
+# Restaurant-Recommendation-System-using-Django-Rest-Framework
+## A website to recommend restaurants based on user preference
 ### GUI (Graphical User Interface)
 
 The GUI for our recommendation Web Application consists of the following items:
