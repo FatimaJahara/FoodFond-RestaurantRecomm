@@ -62,7 +62,7 @@ The GUI for our recommendation Web Application consists of the following items:
 
 ### Requirement Specifications
 
-# Use case text description for users
+#### Use case text description for users
 Use case: Login
 
 Primary actor: Users looking for restaurant recommendations
@@ -98,5 +98,18 @@ Open issues:
 
 
 ![UseCase](https://user-images.githubusercontent.com/54397552/187206259-1bda9c7b-1bde-4a68-8295-93d7a1475cde.png)
+
+
+#### Activity Diagram
+
+![Activity darker](https://user-images.githubusercontent.com/54397552/187207285-66d07ea3-9317-4fc1-860c-5f0c6b6fa2f7.png)
+
+#### Class Diagram
+
+![ClassDiagram](https://user-images.githubusercontent.com/54397552/187207555-5eb809e6-145f-45b4-a672-6fc79cdaa063.png)
+
+#### Sequence Diagram
+
+![Sequence diagram Restaurant Recommendation System](https://user-images.githubusercontent.com/54397552/187207600-97934cb7-fde7-42f7-982b-14546aa2709a.png)
 
 
