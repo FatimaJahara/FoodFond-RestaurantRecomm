@@ -113,3 +113,35 @@ Open issues:
 ![Sequence diagram Restaurant Recommendation System](https://user-images.githubusercontent.com/54397552/187207600-97934cb7-fde7-42f7-982b-14546aa2709a.png)
 
 
+## Manual Testing
+
+### Requirements/specifications-based system level test cases
+
+- Requirements
+
+![Requirements](https://user-images.githubusercontent.com/54397552/187208363-4198f4ba-43c7-4e69-adb5-381b09fe911c.PNG)
+
+- Login Test Cases
+
+![LoginTestCase](https://user-images.githubusercontent.com/54397552/187208473-ecea8b5d-6834-4412-ac8c-b5262421bec2.PNG)
+
+- Register Test Cases
+
+![RegisterTestCase](https://user-images.githubusercontent.com/54397552/187208901-12769221-ab79-46e7-84d7-ae7c20a0bcc2.PNG)
+
+- Search for Restaurants Test Cases
+
+![UserPreferenceTEst](https://user-images.githubusercontent.com/54397552/187209045-0065b60f-b0fd-4838-abad-b51ae16848c1.PNG)
+
+- Provide Feedback Test Cases
+
+![FeedbackTest](https://user-images.githubusercontent.com/54397552/187209141-c4aab708-3554-4d9b-beaa-ab439889c5eb.PNG)
+
+- Profile Test Cases
+
+![ProfileTest](https://user-images.githubusercontent.com/54397552/187209195-406b34a1-a168-48b5-a93a-95a5135b37b0.PNG)
+
+
+## Traceability of test cases to use cases
+
+![Traceability](https://user-images.githubusercontent.com/54397552/187209477-42cecbdc-2989-4b16-9b95-d77b348d8876.PNG)
