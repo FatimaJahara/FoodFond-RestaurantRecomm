@@ -70,20 +70,28 @@ Primary actor: Users looking for restaurant recommendations
 Goal in context: To login to the account to perform desired task
 
 Preconditions: System must have the ability to store username and password
-13
+
 Trigger: The user decides to click on the login option and used name and password.
+
 Scenerio:
-• Users enters the system.
-• Clicks login option if not logged in.
-• Users can spicify preference
-• Users can read review and ratings
-• Users can view recommendation
+- Users enters the system.
+- Clicks login option if not logged in.
+- Users can spicify preference
+- Users can read review and ratings
+- Users can view recommendation
+
 Priority: Essential, must be implemented
+
 When available: First increment
+
 Frequency of use: Many times per day
+
 Channel to actor: Via graphical user interface
+
 Secondary actors: Software engineers
+
 Channel to secondary actors: Codes written
+
 Open issues:
 • Is login required for visitors?
 • Should there be any way to access the recommendation system without logging in?
