@@ -64,8 +64,11 @@ The GUI for our recommendation Web Application consists of the following items:
 
 # Use case text description for users
 Use case: Login
+
 Primary actor: Users looking for restaurant recommendations
+
 Goal in context: To login to the account to perform desired task
+
 Preconditions: System must have the ability to store username and password
 13
 Trigger: The user decides to click on the login option and used name and password.
