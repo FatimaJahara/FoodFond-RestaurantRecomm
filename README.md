@@ -60,3 +60,32 @@ The GUI for our recommendation Web Application consists of the following items:
 - Update recommends
 - View Site
 
+### Requirement Specifications
+
+# Use case text description for users
+Use case: Login
+Primary actor: Users looking for restaurant recommendations
+Goal in context: To login to the account to perform desired task
+Preconditions: System must have the ability to store username and password
+13
+Trigger: The user decides to click on the login option and used name and password.
+Scenerio:
+• Users enters the system.
+• Clicks login option if not logged in.
+• Users can spicify preference
+• Users can read review and ratings
+• Users can view recommendation
+Priority: Essential, must be implemented
+When available: First increment
+Frequency of use: Many times per day
+Channel to actor: Via graphical user interface
+Secondary actors: Software engineers
+Channel to secondary actors: Codes written
+Open issues:
+• Is login required for visitors?
+• Should there be any way to access the recommendation system without logging in?
+
+
+![UseCase](https://user-images.githubusercontent.com/54397552/187206259-1bda9c7b-1bde-4a68-8295-93d7a1475cde.png)
+
+
