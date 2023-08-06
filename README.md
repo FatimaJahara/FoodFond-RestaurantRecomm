@@ -1,4 +1,4 @@
-# Restaurant-Recommendation-System-using-Django-Rest-Framework
+# Restaurant-Recommendation-System-using-collaborative filtering-in-Django-Rest-Framework
 ## A website to recommend restaurants based on user preference
 ### GUI (Graphical User Interface)
 
